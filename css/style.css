@@ -8,7 +8,10 @@
 /* atribuir altura 100%, para que elementos possam ser visualizados */
 html, body{
 	height: 100%;
+	font-family: 'Saira Extra Condensed', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100&display=swap');
 
 .parent{
 	display: flex;
@@ -46,7 +49,7 @@ html, body{
 	text-decoration: none;
 	color: white;
 	opacity: 0.4;
-	font-size: 17px;
+	font-size: 20px;
 	display: block;
 	margin-bottom: 20px;
 }
@@ -76,7 +79,7 @@ section.description{
 
 section.description h2{
 	
-	font-size: 35px;
+	font-size: 40px;
 }
 
 section.description h2 > span,
@@ -98,13 +101,13 @@ section.description p > span > a{
 section.description h3{
 	margin: 15px 0;
 	color: #403d3d;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 section.description p{
 	color: #403d3d;
-	margin-top: 40px;
-	font-size: 19px;
+	margin-top: 30px;
+	font-size: 20px;
 }
 
 .icons-social{
