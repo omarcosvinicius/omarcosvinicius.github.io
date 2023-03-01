@@ -89,6 +89,12 @@ section.description h3 > span > a{
 	color: #5a9190;
 }
 
+section.description p > span > a{
+	text-decoration: none;
+	color: #5a9190;
+	font-weight: bold;
+}
+
 section.description h3{
 	margin: 15px 0;
 	color: #403d3d;
