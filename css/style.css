@@ -3,12 +3,12 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 /* atribuir altura 100%, para que elementos possam ser visualizados */
 html, body{
-	height: 100%;
-	font-family: 'Saira Extra Condensed', sans-serif;
+	height: 100%;	
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100&display=swap');
@@ -78,7 +78,6 @@ section.description{
 }
 
 section.description h2{
-	
 	font-size: 40px;
 }
 
@@ -92,10 +91,18 @@ section.description h3 > span > a{
 	color: #5a9190;
 }
 
+section.description h3 > span > a:hover{
+	color: #68a8a7;
+}
+
 section.description p > span > a{
 	text-decoration: none;
 	color: #5a9190;
 	font-weight: bold;
+}
+
+section.description p > span > a:hover{
+	color: #68a8a7;
 }
 
 section.description h3{
