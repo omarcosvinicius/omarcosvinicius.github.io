@@ -141,3 +141,10 @@ section.description p{
 .icons-social a:hover{
 	background-color: #5a9190;
 }
+
+.division-bar{
+	margin-top: 50px;
+	width: 100%;
+	height: 2px;
+	background-color: #5a9190;
+}
