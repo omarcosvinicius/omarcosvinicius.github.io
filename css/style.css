@@ -16,6 +16,7 @@ html, body{
 .parent{
 	display: flex;
 }
+
 .sidebar{
 	width: 20%;
 	height: 100%;
