@@ -36,7 +36,7 @@ html, body{
 }
 
 .img-sidebar img{
-	width: 80%;
+	width: 50%;
 	border-radius: 50%;
 	border: 5px solid rgba(232, 230, 230, 0.5);
 }
