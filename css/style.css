@@ -172,6 +172,8 @@ section.projects a{
 	color: black;
 }
 
+/* Início sessão Projetos */
+
 section.projects{
 	position: relative;
 	top: 30%;
@@ -179,16 +181,19 @@ section.projects{
 	border-bottom: 3px solid;
 	border-color: rgba(90, 145, 144, 0.7);
 	padding-bottom: 20px;
+	width: 100%;
 }
 
 section.projects .otilap-company{
 	margin-top: 10px;
 	float: left;
-	width: 100%;
+	width: 50%;
 	height: 100%;
 }
 
-section.projects .otilap-company h2{
+section.projects .otilap-company h2,
+section.projects .kirscan-car h2
+{
 	font-size: 20px;
 	font-weight: normal;
 }
@@ -198,6 +203,24 @@ section.projects .otilap-company-gif{
 	background-image: url('../assets/otilap-company.gif');
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 50%;
+	width: 90%;
 	height: 280px;
 }
+
+section.projects .kirscan-car{
+	margin-top: 10px;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+section.projects .kirscan-car-gif{
+	margin-top: 10px;
+	background-image: url('../assets/kirscan-car.gif');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 90%;
+	height: 280px;
+}
+
+/* Final sessão projetos */
