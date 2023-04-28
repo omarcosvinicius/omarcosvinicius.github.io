@@ -11,6 +11,10 @@ html, body{
 	height: 100%;	
 }
 
+.clear{
+	clear: both;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100&display=swap');
 
 .parent{
@@ -146,8 +150,7 @@ section.description p{
 }
 
 section.education,
-section.experience,
-section.projects{
+section.experience{
 	position: relative;
 	top: 30%;
 	transform: translateY(-50%);
@@ -167,5 +170,34 @@ section.experience a,
 section.projects a{
 	text-decoration: none;
 	color: black;
-	cursor: auto;
+}
+
+section.projects{
+	position: relative;
+	top: 30%;
+	transform: translateY(-8%);
+	border-bottom: 3px solid;
+	border-color: rgba(90, 145, 144, 0.7);
+	padding-bottom: 20px;
+}
+
+section.projects .otilap-company{
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+section.projects .otilap-company h2{
+	font-size: 20px;
+	font-weight: normal;
+}
+
+section.projects .otilap-company-gif{
+	margin-top: 10px;
+	background-image: url('../assets/otilap-company.gif');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 280px;
 }
