@@ -225,3 +225,16 @@ section.projects .storm-joker-gif{
 }
 
 /* Final sessão projetos */
+
+@media screen and (max-width: 768px){
+
+	section.projects .box-project{
+		float: none;
+		width: 100%;
+	}
+
+	section.projects{
+		top: 38%;
+		
+	}	
+}
