@@ -238,18 +238,14 @@ section.projects .storm-joker-gif{
 		margin-top: 10px;
 		float: none;
 		width: 100%;
+		height: auto;
 	}
 
 	section.projects .otilap-company-gif,
-	section.projects .kirscan-car-gif{
-		width: 100%;
-		height: auto;
-		padding: 80px;
-	}
-
+	section.projects .kirscan-car-gif,
 	section.projects .storm-joker-gif{
 		width: 100%;
 		height: auto;
-		padding: 50px;
+		padding: 80px;
 	}
 }
