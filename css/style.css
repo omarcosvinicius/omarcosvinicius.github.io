@@ -241,5 +241,10 @@ section.projects .storm-joker-gif{
 
 	section.projects{
 		top: 38%;
-	}	
+	}
+
+	section.projects .otilap-company-gif{
+		width: 100%;
+		height: 180px;
+	}
 }
