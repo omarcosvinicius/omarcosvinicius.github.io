@@ -231,20 +231,22 @@ section.projects .storm-joker-gif{
 
 	section.projects{
 		padding-bottom: 8px;
+		top: 38%;
 	}
 
 	section.projects .box-project{
-		margin-top: 5px;
+		margin-top: 10px;
 		float: none;
 		width: 100%;
 	}
 
-	section.projects{
-		top: 38%;
+	section.projects .otilap-company-gif,
+	section.projects .kirscan-car-gif{
+		width: 100%;
+		height: auto;
+		padding: 80px;
 	}
 
-	section.projects .otilap-company-gif,
-	section.projects .kirscan-car-gif,
 	section.projects .storm-joker-gif{
 		width: 100%;
 		height: auto;
