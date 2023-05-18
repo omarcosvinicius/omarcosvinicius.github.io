@@ -243,7 +243,9 @@ section.projects .storm-joker-gif{
 		top: 38%;
 	}
 
-	section.projects .otilap-company-gif{
+	section.projects .otilap-company-gif,
+	section.projects .kirscan-car-gif,
+	section.projects .storm-joker-gif{
 		width: 100%;
 		height: auto;
 		padding: 80px;
