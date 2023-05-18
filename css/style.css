@@ -228,7 +228,13 @@ section.projects .storm-joker-gif{
 
 @media screen and (max-width: 768px){
 
+
+	section.projects{
+		padding-bottom: 8px;
+	}
+
 	section.projects .box-project{
+		margin-top: 5px;
 		float: none;
 		width: 100%;
 	}
